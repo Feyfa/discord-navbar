@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .icon-hover:hover {
+        @apply bg-green-500
+    }
+    .icon-hover:hover i {
+        @apply text-white;
+    }
+    .icon-hover:hover p {
+        @apply block;
+    }
+    
+    
+    
+    .icon-active {
+        @apply rounded-lg bg-green-500;
+    }
+    .icon-active i {
+        @apply text-white;
+    }
+}

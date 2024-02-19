@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+    main.user {
+        display: grid;
+        grid-template-areas: 
+        "profil bio"
+        "profil project"
+        ;
+    }
+
+    .profil {
+        grid-area: profil;
+    }
+
+    .bio {
+        grid-area: bio;
+    }
+
+    .project {
+        grid-area: project;
+    }
+}
